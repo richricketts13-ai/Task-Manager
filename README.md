@@ -1,20 +1,65 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Task Manager Console App (Java)
 
-## Folder Structure
+Overview
 
-The workspace contains two folders by default, where:
+This is a console-based task manager application built in Java that allows users to manage a list of tasks through an interactive menu.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Users can add tasks, mark them as complete, remove tasks, and view all tasks in a structured format.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+This project was built to strengthen my understanding of object-oriented programming and how multiple classes interact in a real application.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+⸻
 
-## Dependency Management
+Features
+	•	 Add new tasks with a title and description
+	•	 View all tasks with numbered output
+	•	 Mark tasks as complete
+	•	 Remove tasks by index
+	•	 Continuous menu loop for user interaction
+	•	 Exit option to close the program
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# Task-Manager-
-# Task-Manager
+⸻
+
+Concepts Learned
+	•	Object-Oriented Programming (OOP)
+	•	Creating and using multiple classes
+	•	Encapsulation (private variables + getters)
+	•	Working with ArrayList to store objects
+	•	Iterating through lists with loops
+	•	Input handling using Scanner
+	•	Menu-driven program structure
+	•	Basic input validation and error handling
+	•	Separation of concerns (Task vs TaskManager vs Main)
+
+⸻
+
+How It Works
+
+The program runs in a loop and displays a menu:
+
+1. Add Task
+2. View Tasks
+3. Mark Task as Complete
+4. Remove Task
+5. Exit
+
+	•	The user selects an option
+	•	The program calls the appropriate method in TaskManager
+	•	Tasks are stored and updated dynamically
+
+⸻
+
+Purpose
+
+This project was created to:
+	•	Practice building programs with multiple classes
+	•	Improve problem-solving and program design skills
+	•	Understand how data and behavior are organized in Java
+	•	Prepare for more advanced topics like data structures and backend development
+
+⸻
+
+Richard Ricketts
+
+Developed as part of my journey learning Java and improving programming fundamentals.
